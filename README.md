@@ -1,2 +1,2 @@
-# seefeld_eventkalender
-Eventkalender, der immer die aktuellen Events aus dem Seefeld RSS Feed anzeigt
+# seefeld_eventcalendar
+Eventcalendar, who always shows the latest events from the Seefeld region.
