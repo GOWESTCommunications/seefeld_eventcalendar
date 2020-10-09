@@ -1,0 +1,32 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Liest den RSS Feed von Seefeld aus & rendered ein view template",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "events_seefeld",
+        "name": "Events Seefeld",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [],
+        "plugins": [],
+        "vendorName": "GOWEST"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2020-10-06 01:42",
+        "extension_builder_version": "8.10.2",
+        "be_user": " (1)"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "gowest/events-seefeld",
+    "type": "typo3-cms-extension",
+    "description": "Liest den RSS Feed von Seefeld aus und gibt einen Kalender zurück.",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "GOWEST\\EventsSeefeld\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GOWEST\\EventsSeefeld\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "events_seefeld": "self.version",
+        "typo3-ter/events-seefeld": "self.version"
+    }
+}
