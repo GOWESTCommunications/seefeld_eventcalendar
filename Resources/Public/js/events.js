@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <h2> {{ Cities[city-1] }} </h2>
             <div class="container">
             <div class="container events" data-flickity='{ "groupCells": true, "wrapAround": true, "prevNextButtons": true }'>
-                <div v-for="event in events[city-1]" v-bind:key="event.id" class="col-12 col-sm-6 col-md-4 overviewItem">
+                <div v-for="event in events[city-1]" v-bind:key="event.id" class="col-xs-12 col-sm-6 col-md-4 overviewItem">
                 <article v-on:click="redirectToEvent(event.homepage)">
                     <div class="image" >
-                        <picture>
+                        <picture class="objectFit">
                             <img :src="event.image" alt="event.title"></img>
                         </picture>
                     </div>
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
             this.addCssToHead('/typo3conf/ext/events_seefeld/Resources/Public/css/events.css');
             // // this.addJsToBody('/typo3conf/ext/events_seefeld/Resources/Public/js/events.js');
             // this.addJsToBody('/typo3conf/ext/events_seefeld/Resources/Public/js/vue.min.js');
-            // this.addJsToBody('/typo3conf/ext/events_seefeld/Resources/Public/js/flickity.min.js');
+            // this.addJsToBody('/typo3conf/ext/events_seefeld/Resources/Public/js/flickity.pkgd.min.js');
 
         },
         methods: {
