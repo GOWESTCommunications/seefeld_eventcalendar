@@ -27,7 +27,7 @@ namespace GOWEST\EventsSeefeld\Controller;
  ***************************************************************/
 
 /**
- * DataController
+ * EventController
  */
 class EventController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
 	/**

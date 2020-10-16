@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
             this.addCssToHead('/typo3conf/ext/events_seefeld/Resources/Public/css/flickity.min.css');
             this.addCssToHead('/typo3conf/ext/events_seefeld/Resources/Public/css/events.css');
             // // this.addJsToBody('/typo3conf/ext/events_seefeld/Resources/Public/js/events.js');
-            // this.addJsToBody('/typo3conf/ext/events_seefeld/Resources/Public/js/vue.min.js');
+            this.addJsToBody('/typo3conf/ext/events_seefeld/Resources/Public/js/vue.min.js');
             // this.addJsToBody('/typo3conf/ext/events_seefeld/Resources/Public/js/flickity.pkgd.min.js');
 
         },
