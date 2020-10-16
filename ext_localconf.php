@@ -11,7 +11,7 @@ if (!defined('TYPO3_MODE')) {
 	'GOWEST.' . $_EXTKEY,
 	'EventsSeefeld',
 	array(
-		'Data' => 'list',
+		'Event' => 'eventfeed',
 	),
 	array(
 		'Data' => '',
@@ -24,7 +24,7 @@ if (!defined('TYPO3_MODE')) {
 $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['GOWEST\EventsSeefeld\Task\Task'] = array(
     'extension' => $_EXTKEY,
     'title' => 'Eventfeed für Seefeld',
-    'description' => 'Connects the formhandler to the CRM of Sandbox8',
+    'description' => 'Returns a calender with events for the top 5 regions of Seefeld',
  );
 
 

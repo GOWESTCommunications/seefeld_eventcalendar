@@ -12,10 +12,10 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Events Seefeld',
-    'description' => 'Liest den RSS Feed von Seefeld aus und gibt es mit View zurück.',
+    'description' => 'Liest den RSS Feed von Seefeld aus und gibt eine Kalender mit Veranstaltungen zurück',
     'category' => 'plugin',
-    'author' => '',
-    'author_email' => '',
+    'author' => 'Daniela Dottolo',
+    'author_email' => 'd.dottolo@go-west.at',
     'state' => 'alpha',
     'uploadfolder' => 0,
     'createDirs' => '',
